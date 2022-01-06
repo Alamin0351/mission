@@ -45,6 +45,7 @@ body {font-family: 'Ubuntu', sans-serif;
     width: 70%;
     padding: 30px;
     margin-left: 50px;
+    
 }
 
 /* second section */
@@ -56,6 +57,14 @@ body {font-family: 'Ubuntu', sans-serif;
     Margin-bottom: 50px;
     
 
+}
+.second-heading h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.second-heading span {
+    color: tomato;
 }
 .top-image {
     padding: 10px;
@@ -72,6 +81,8 @@ body {font-family: 'Ubuntu', sans-serif;
     padding: 10px;
     width: 300px;
     border-radius: 20px;}
+
+    
 
 .vission {
     
@@ -102,4 +113,21 @@ width: 30%;
 
 .Goal img{
     width: 30%;
+}
+.third-section {
+
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.girl-photo{
+    width: 40%;
+}
+.writting-text {
+    width: 60%;
+}
+
+.third-section img {
+    width: 100%;
 }
