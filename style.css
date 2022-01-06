@@ -12,7 +12,7 @@ body {font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
     font-weight: Bold;
 }
-.first-section a{
+#link-btn{
     text-decoration: none;
     padding: 10px 20px;
     background-color: tomato;
@@ -114,20 +114,53 @@ width: 30%;
 .Goal img{
     width: 30%;
 }
-.third-section {
 
+.content {
+    
+    margin-left: 10%;
+    margin-right: 10px;
     display: flex;
-    width: 80%;
-    margin: auto;
+    justify-content:space-around ;
 }
 
 .girl-photo{
     width: 40%;
+   
 }
 .writting-text {
-    width: 60%;
+    width: 50%;
+    padding-left: 10px;
+    
+
 }
 
-.third-section img {
+.content img {
     width: 100%;
+    margin-bottom: 50px;}
+   
+.witting-text h1{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 50px;
 }
+.witting-text p{
+    font-size: 20px;
+    margin-bottom: 50px;
+   
+    padding-left: 50px;
+    padding-right: 85px;
+}
+
+#link-btn1{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    margin-left: 50px;
+}
+
+
+
+
