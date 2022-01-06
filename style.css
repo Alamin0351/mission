@@ -1,0 +1,105 @@
+body {font-family: 'Ubuntu', sans-serif;
+}
+
+.first-section{
+    display: flex;
+    width: 80%;
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.first-section h1{
+    font-size: 50px;
+    font-weight: Bold;
+}
+.first-section a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    
+}
+.first-section p{
+    margin-top: 30px;
+    
+    font-size: 20px;
+}
+.border {
+    border-left: 5px solid pink;
+    border-radius: 5px;
+
+}
+.border h1{
+    margin-left: 10px;
+}
+#tomatto {
+    color: tomato;
+}
+
+.half-width {
+    width: 50%;
+
+}
+.photo img{
+    width: 70%;
+    padding: 30px;
+    margin-left: 50px;
+}
+
+/* second section */
+.second-section{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+    Margin-bottom: 50px;
+    
+
+}
+.top-image {
+    padding: 10px;
+
+}
+#heading p{
+    font-weight: bold;
+    text-align: center;
+}
+.mission {
+    width: 30%;
+    height: 300px;
+    background-color: lightcyan;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;}
+
+.vission {
+    
+        width: 30%;
+        height: 300px;
+        background-color: lightpink;
+        padding: 10px;
+        width: 300px;
+        border-radius: 20px;
+    
+}    
+.Goal {
+    width: 30%;
+    height: 300px;
+    background-color: lightyellow;
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.mission img{
+    width: 30%;
+    
+}
+.vission img{
+width: 30%;
+}
+
+.Goal img{
+    width: 30%;
+}
